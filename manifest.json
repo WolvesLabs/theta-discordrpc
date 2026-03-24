@@ -1,0 +1,9 @@
+{
+	"id": "theta-discordrpc",
+	"name": "Theta Discord RPC",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Yet another Discord RPC plugin for Obsidian",
+	"author": "WolvesLabs",
+	"isDesktopOnly": true
+}

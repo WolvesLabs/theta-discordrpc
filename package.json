@@ -1,0 +1,21 @@
+{
+  "name": "theta-discordrpc",
+  "version": "1.2.0",
+  "description": "Yet another Discord RPC plugin for Obsidian",
+  "main": "main.js",
+  "scripts": {
+    "dev": "esbuild src/main.js --bundle --outfile=main.js --platform=node --target=node16 --external:obsidian --format=cjs",
+    "watch": "esbuild src/main.js --bundle --outfile=main.js --platform=node --target=node16 --external:obsidian --format=cjs --watch"
+  },
+  "keywords": [],
+  "author": "WolvesLabs",
+  "license": "MIT",
+  "dependencies": {
+    "discord-rpc": "^4.0.1",
+    "obsidian": "^1.12.3"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.4"
+  },
+  "type": "commonjs"
+}
