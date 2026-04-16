@@ -4,6 +4,6 @@
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
 	"description": "Yet another Discord RPC plugin for Obsidian",
-	"author": "WolvesLabs",
+	"author": "metacontour",
 	"isDesktopOnly": true
 }
